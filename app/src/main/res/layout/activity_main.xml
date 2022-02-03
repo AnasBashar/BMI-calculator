@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/labelWeight"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:hint="KG"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/labelHeight"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:hint="CM/M"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:onClick="CalculateBMI"
+        android:text="@string/btnCalc"
+        app:backgroundTint="#1DCA24" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:insetLeft="150dp"
+        android:insetTop="120dp"
+        android:onClick="ViewData"
+        android:text="@string/view_data"
+        app:elevation="0dp"
+        app:iconPadding="8dp" />
+
+    <Button
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:insetLeft="150dp"
+        android:insetTop="20dp"
+        android:onClick="About"
+        android:text="ABOUT"
+        app:elevation="0dp"
+        app:iconPadding="8dp" />
+
+</LinearLayout>

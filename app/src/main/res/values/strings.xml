@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="labelWeight">YOUR WEIGHT</string>
+    <string name="labelHeight">YOUR HEIGHT</string>
+    <string name="btnCalc">CALCULATE</string>
+    <string name="under">Underweight</string>
+    <string name="normal">Normal Weight</string>
+    <string name="over">Overweight</string>
+    <string name="mobesity">Moderately obese</string>
+    <string name="sobesity">Severely Obese</string>
+    <string name="vobesity">Very Severly Obese</string>
+    <string name="underrisk">Malnutrition risk</string>
+    <string name="normalrisk">Low risk</string>
+    <string name="overrisk">Enhanced risk</string>
+    <string name="moberisk">Medium risk</string>
+    <string name="severisk">High risk</string>
+    <string name="veberisk">Very High risk</string>
+    <string name="view_data">SEE HISTORY</string>
+    <string name="getHeight"></string>
+    <string name="getWeight"></string>
+    <string name="back">Back</string>
+</resources>

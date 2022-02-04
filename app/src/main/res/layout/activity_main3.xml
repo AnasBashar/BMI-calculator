@@ -26,19 +26,25 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="18dp"
-        android:text="\n\n\n\n\n Phone : 0192957076"
+        android:text="\n\n\n\n\n MATRIC NUM\n 2020859256"
         />
-
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:textSize="18dp"
+        android:text=" CLASS : \t\t\t\t\t\t CS2703B"
+    />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="261dp"
+        android:layout_height="460dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="119dp"
-        android:layout_marginRight="119dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
         app:srcCompat="@drawable/anas" />
 
 
